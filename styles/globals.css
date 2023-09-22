@@ -1,10 +1,10 @@
 * {
 	box-sizing: border-box;
+	font-family: "Raleway", sans-serif;
 }
 
 html {
 	scroll-behavior: smooth;
-	font-family: "Raleway", sans-serif;
 }
 
 a:link {
@@ -34,6 +34,7 @@ a:link {
 	font-family: "Raleway", sans-serif;
 	/* border-bottom: #1d4b67 2px solid; */
 	border-bottom: #304b74 2px solid;
+	font-family: "Raleway", sans-serif;
 }
 
 /* HEADER*/
@@ -46,6 +47,7 @@ a:link {
 	padding: 2.5%;
 	z-index: 1;
 	font-weight: 600;
+	font-family: "Raleway", sans-serif;
 }
 
 .header-nav {
@@ -55,6 +57,7 @@ a:link {
 	justify-content: flex-end;
 	padding: 1%;
 	gap: 3%;
+	font-family: "Raleway", sans-serif;
 }
 
 .logo {
@@ -121,6 +124,8 @@ a:link {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	font-family: "Raleway", sans-serif;
+	cursor: pointer;
 }
 
 .big-carrousel-card {
