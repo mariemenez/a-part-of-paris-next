@@ -5,10 +5,10 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import TopTitle from "../components/TopTitle"
 import ScrollToTop from "../components/ScrollToTop"
-// import GeoCode from "../components/GeoCode"
+import GeoCode from "../components/GeoCode"
 import MiddleTitle from "../components/MiddleTitle"
 // import ZoomPic from "../components/ZoomPic"
-// import Details from "../components/Details"
+import Details from "../components/Details"
 import { useState } from "react"
 const makeArray = require("./makeArray")
 const Flickity = require("react-flickity-component")
@@ -56,7 +56,7 @@ export default function LongDurationProduct() {
 					</Flickity>
 				</div>
 
-				{/* <div className="product-infos">
+				<div className="product-infos">
 					<div className="product-infos-left">
 						<GeoCode location={data.adr} />
 					</div>
@@ -73,7 +73,7 @@ export default function LongDurationProduct() {
 							</a>
 						</div>
 					</div>
-				</div> */}
+				</div>
 			</section>
 			{visible && <ZoomPic setVisible={setVisible} picture={picture} finalImagesArray={finalImagesArray} />}
 			<ScrollToTop color={"#304b74"} />

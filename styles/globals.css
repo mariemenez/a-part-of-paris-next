@@ -508,6 +508,7 @@ a:link {
 	display: flex;
 	color: white;
 	/* border: solid green 5px; */
+	font-family: "Raleway", sans-serif;
 }
 
 .product-infos-left {
