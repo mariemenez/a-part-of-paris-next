@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 import TopTitle from "../components/TopTitle"
 import MiddleTitle from "../components/MiddleTitle"
 import ScrollToTop from "../components/ScrollToTop"
-// import SmallCarrousel from "../components/SmallCarrousel"
+import SmallCarrousel from "../components/SmallCarrousel"
 import BigCarrousel from "../components/BigCarrousel"
 import Link from "next/link"
 

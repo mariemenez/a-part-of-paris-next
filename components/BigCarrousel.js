@@ -15,7 +15,7 @@ export default function BigCarrousel({ data, height, width, dispo, link }) {
 						<div
 							className="big-carrousel-card"
 							key={index}
-							style={{ width: 300, height: height }}
+							style={{ width: width, height: height }}
 							onMouseOver={() => {
 								setDisplayText(item)
 							}}
