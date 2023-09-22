@@ -25,7 +25,7 @@ export default function LongDuration() {
 			<section className="general-container">
 				<TopTitle title={"LONG TERM RENTALS"} color={"#304b74"} />
 				<MiddleTitle title={"Currently available"} color={"#304b74"} />
-				{/* <SmallCarrousel data={data} /> */}
+				<SmallCarrousel data={data} />
 				<MiddleTitle title={"Too late...already rented"} color={"#304b74"} marginTop={"50px"} />
 				<BigCarrousel data={data} height={"300px"} width={"300px"} dispo={"non"} link={"LongDurationProduct"} />
 			</section>

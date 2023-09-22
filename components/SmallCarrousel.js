@@ -1,11 +1,11 @@
 // import { Link } from "react-router-dom"
-
+import Link from "next/link"
 export default function SmallCarrousel({ data }) {
 	const Flickity = require("react-flickity-component")
 
 	return (
 		<div className="small-carrousel">
-			{/* <Flickity options={{ prevNextButtons: true, pageDots: false, cellAlign: "left" }}>
+			<Flickity options={{ prevNextButtons: true, pageDots: false, cellAlign: "left" }}>
 				{data.map((item, index) => {
 					const imageId1 = item.p1.slice(32, 65)
 					const finalImage1 = `https://lh3.googleusercontent.com/d/${imageId1}`
@@ -13,8 +13,10 @@ export default function SmallCarrousel({ data }) {
 					if (item.dispo === "oui") {
 						return (
 							<div className="small-carrousel-card" key={index}>
-								<Link to={`/longDuration/${index}`} className="small-carrousel-card-img-container">
-									<img src={finalImage1} alt="apt" />
+								<Link href={`/LongDuration/${index}`}>
+									<div className="small-carrousel-card-img-container">
+										<img src={finalImage1} alt="apt" />
+									</div>
 								</Link>
 								<div className="small-carrousel-card-apt-infos">
 									<p>
@@ -28,7 +30,7 @@ export default function SmallCarrousel({ data }) {
 						)
 					} else return null
 				})}
-			</Flickity> */}
+			</Flickity>
 		</div>
 	)
 }
