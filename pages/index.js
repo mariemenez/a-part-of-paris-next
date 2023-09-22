@@ -5,6 +5,7 @@ import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
 import Button from "../components/Button"
 // import TopTitle from "../components/TopTitle"
 // import { useLocation } from "react-router-dom"
+import Link from "next/link"
 import { useEffect } from "react"
 export default function Home() {
 	const { isLoaded } = useLoadScript({ googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY })
@@ -41,6 +42,8 @@ export default function Home() {
 				</div>
 
 				<div className="buttons-container">
+					<Link href="/LongDuration">LongDuration</Link>
+
 					<Button link={"longDuration"} text={"LONG TERM RENTALS"} className={"btn btn--outline"} />
 					<Button link={"shortDuration"} text={"SHORT TERM RENTALS"} className={"btn btn--outline"} />
 				</div>
