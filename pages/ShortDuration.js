@@ -21,7 +21,7 @@ export default function ShortDuration() {
 			/>
 			<section className="general-container">
 				<TopTitle title={"SHORT TERM RENTALS"} color={"#304b74"} />
-				<BigCarrousel data={data} height={"400px"} width={"400px"} dispo={"oui"} link={"shortDuration"} />
+				<BigCarrousel data={data} height={"400px"} width={"400px"} dispo={"oui"} link={"ShortDurationProduct"} />
 			</section>
 			<ScrollToTop color={"#304b74"} />
 			<Footer />
