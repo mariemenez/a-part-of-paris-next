@@ -7,7 +7,7 @@ import TopTitle from "../components/TopTitle"
 import ScrollToTop from "../components/ScrollToTop"
 import GeoCode from "../components/GeoCode"
 import MiddleTitle from "../components/MiddleTitle"
-// import ZoomPic from "../components/ZoomPic"
+import ZoomPic from "../components/ZoomPic"
 import Details from "../components/Details"
 import { useState } from "react"
 const makeArray = require("./makeArray")

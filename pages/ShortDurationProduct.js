@@ -8,7 +8,7 @@ import ScrollToTop from "../components/ScrollToTop"
 import GeoCode from "../components/GeoCode"
 import MiddleTitle from "../components/MiddleTitle"
 import { useState } from "react"
-// import ZoomPic from "../components/ZoomPic"
+import ZoomPic from "../components/ZoomPic"
 import Details from "../components/Details"
 import Equipement from "../components/Equipement"
 import ProductNav from "../components/ProductNav"
@@ -16,7 +16,6 @@ const Flickity = require("react-flickity-component")
 const makeArray = require("./makeArray")
 
 export default function ShortDurationProduct() {
-	// const { offerIndex } = useParams()
 	const router = useRouter()
 	const { index } = router.query
 	const [data, isLoading] = useFetch(`/shortDuration/${index}`)

@@ -1,4 +1,3 @@
-import Button from "./Button"
 export default function ProductNav({ data }) {
 	return (
 		<div className="product-nav">
