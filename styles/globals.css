@@ -17,7 +17,7 @@ a:link {
 	justify-content: center;
 	align-items: center;
 	height: 150px;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 600;
 	font-family: "Raleway", sans-serif;
 }
@@ -290,7 +290,7 @@ a:link {
 	gap: 20px;
 	width: 100%;
 	justify-content: center;
-	bottom: 25%;
+	bottom: 20%;
 }
 
 .home-title {
@@ -412,17 +412,20 @@ a:link {
 }
 
 .contact-droite {
-	/* background-color: aqua; */
+	/* background-color: lightblue; */
 	flex: 1;
 	margin-left: 3%;
 	justify-content: space-around;
 	display: flex;
 	align-items: center;
 }
+.horaires {
+	/* border: solid 2px green; */
+	height: 300px;
+}
 
 .contact-droite h3 {
 	font-size: 25px;
-	padding-bottom: 10%;
 }
 .contact-droite p {
 	font-size: 17px;
@@ -961,7 +964,7 @@ a:link {
 	}
 	.top-title {
 		/* background-color: aquamarine; */
-		font-size: 30px;
+		font-size: 25px;
 		padding: 5px;
 	}
 	.about-text {

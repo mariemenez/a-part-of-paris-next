@@ -1,9 +1,9 @@
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-// import ScrollToTop from "../components/ScrollToTop"
+import ScrollToTop from "../components/ScrollToTop"
 import Button from "../components/Button"
-// import TopTitle from "../components/TopTitle"
+import TopTitle from "../components/TopTitle"
 // import { useLocation } from "react-router-dom"
 import Link from "next/link"
 import { useEffect } from "react"
@@ -120,7 +120,7 @@ export default function Home() {
 			</section>
 			<section id="about" className="about">
 				<div className="general-container">
-					{/* <TopTitle title={"ABOUT US"} color={"#304b74"} /> */}
+					<TopTitle title={"ABOUT US"} color={"#304b74"} />
 					<div className="about-text">
 						<p>
 							Located in the Le Marais for 20 years, we specialise in the real estate market in central Paris. <br />
@@ -132,12 +132,12 @@ export default function Home() {
 						</p>
 					</div>
 				</div>
-				{/* <ScrollToTop color={"#304b74"} /> */}
+				<ScrollToTop color={"#304b74"} />
 			</section>
 
 			<section id="contact" className="contact">
 				<div className="general-container">
-					{/* <TopTitle title={"CONTACT US"} color={"#FFFF"} /> */}
+					<TopTitle title={"CONTACT US"} color={"#FFFF"} />
 					<div className="contact-text">
 						{!isLoaded ? (
 							<div>loading...</div>
@@ -155,7 +155,7 @@ export default function Home() {
 							</div>
 						)}
 						<div className="contact-droite">
-							<div>
+							<div className="horaires">
 								<h3>A part of Paris</h3>
 								<p>
 									203bis rue Saint Martin <br /> 75003 Paris
@@ -175,7 +175,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				{/* <ScrollToTop color={"#dbdad6"} /> */}
+				<ScrollToTop color={"#dbdad6"} />
 				<Footer />
 			</section>
 		</div>
