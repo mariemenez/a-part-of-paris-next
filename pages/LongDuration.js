@@ -7,7 +7,6 @@ import MiddleTitle from "../components/MiddleTitle"
 import ScrollToTop from "../components/ScrollToTop"
 import SmallCarrousel from "../components/SmallCarrousel"
 import BigCarrousel from "../components/BigCarrousel"
-import Link from "next/link"
 
 export default function LongDuration() {
 	const [data, isLoading] = useFetch("/longueDuration")
