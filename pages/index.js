@@ -43,7 +43,7 @@ export default function Home() {
 
 				<div className="buttons-container">
 					<Button link={"/LongDuration"} text={"LONG TERM RENTALS"} className={"btn btn--outline"} />
-					<Button link={"shortDuration"} text={"SHORT TERM RENTALS"} className={"btn btn--outline"} />
+					<Button link={"/ShortDuration"} text={"SHORT TERM RENTALS"} className={"btn btn--outline"} />
 				</div>
 
 				<div className="slider-container slider-1">
