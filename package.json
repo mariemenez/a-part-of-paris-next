@@ -11,6 +11,8 @@
     "node": ">=16"
   },
   "dependencies": {
+    "@mdi/js": "^7.2.96",
+    "@mdi/react": "^1.6.1",
     "@react-google-maps/api": "^2.19.2",
     "axios": "^1.5.0",
     "flickity": "^2.3.0",
