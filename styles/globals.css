@@ -46,7 +46,7 @@ a:link {
 	width: 100%;
 	padding: 2.5%;
 	z-index: 1;
-	font-weight: 600;
+	font-weight: 500;
 	font-family: "Raleway", sans-serif;
 }
 
@@ -286,6 +286,7 @@ a:link {
 .home {
 	height: 100vh;
 	display: flex;
+	font-family: "Raleway", sans-serif;
 }
 
 .buttons-container {
@@ -481,6 +482,7 @@ a:link {
 
 .footer a {
 	color: #304b74;
+	font-family: "Raleway", sans-serif;
 }
 
 .scroll-to-top {
