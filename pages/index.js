@@ -1,6 +1,6 @@
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
-// import Header from "../components/Header"
-// import Footer from "../components/Footer"
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 // import ScrollToTop from "../components/ScrollToTop"
 import Button from "../components/Button"
 // import TopTitle from "../components/TopTitle"
@@ -28,13 +28,13 @@ export default function Home() {
 	return (
 		<div>
 			<section className="home">
-				{/* <Header
+				<Header
 					position={"absolute"}
 					contact={"#contact"}
 					about={"#about"}
 					color={"#FFFFFF"}
 					img={"https://res.cloudinary.com/dne4o9rdd/image/upload/v1683616465/logo2_sfqc3s.png"}
-				/> */}
+				/>
 				<div className="home-title">
 					<p>
 						A small corner of paradise, <br></br>your apartment.
@@ -42,13 +42,11 @@ export default function Home() {
 				</div>
 
 				<div className="buttons-container">
-					<Link href="/LongDuration">LongDuration</Link>
-
-					<Button link={"longDuration"} text={"LONG TERM RENTALS"} className={"btn btn--outline"} />
+					<Button link={"/LongDuration"} text={"LONG TERM RENTALS"} className={"btn btn--outline"} />
 					<Button link={"shortDuration"} text={"SHORT TERM RENTALS"} className={"btn btn--outline"} />
 				</div>
 
-				{/* <div className="slider-container slider-1">
+				<div className="slider-container slider-1">
 					<div className="slider">
 						<div>
 							<img
@@ -118,7 +116,7 @@ export default function Home() {
 							/>
 						</div>
 					</div>
-				</div> */}
+				</div>
 			</section>
 			<section id="about" className="about">
 				<div className="general-container">
@@ -177,8 +175,8 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				{/* <ScrollToTop color={"#dbdad6"} />
-				<Footer /> */}
+				{/* <ScrollToTop color={"#dbdad6"} /> */}
+				<Footer />
 			</section>
 		</div>
 	)
