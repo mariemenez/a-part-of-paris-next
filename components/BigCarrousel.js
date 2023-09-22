@@ -1,5 +1,4 @@
 import { useState } from "react"
-// import { Link } from "react-router-dom"
 import Link from "next/link"
 
 export default function BigCarrousel({ data, height, width, dispo, link }) {
@@ -13,9 +12,16 @@ export default function BigCarrousel({ data, height, width, dispo, link }) {
 
 				if (item.dispo === dispo) {
 					return (
-						<div className="big-carrousel-card" key={index} style={{ width: width, height: height }}>
-							<Link href={`/LongDurationProduct?index=${index}`}>
-								<div>
+						<div
+							className="big-carrousel-card"
+							key={index}
+							style={{ width: 300, height: height }}
+							onMouseOver={() => {
+								setDisplayText(item)
+							}}
+						>
+							<Link href={`/${link}?index=${index}`}>
+								<div style={{ height: "100%", width: "100%" }}>
 									<img src={finalImage1} alt="apt" />
 									<div className={displayText === item ? "text-actif" : "text-inactif"}>
 										<div className="block"></div>
