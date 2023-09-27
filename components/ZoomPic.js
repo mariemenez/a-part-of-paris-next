@@ -14,7 +14,7 @@ export default function ZoomPic({ setVisible, finalImagesArray, startIndex }) {
 				</button>
 			</div>
 			<div className="modal">
-				<Flickity options={{ initialIndex: startIndex, wrapAround: true, pageDots: false, draggable: false }}>
+				<Flickity options={{ initialIndex: startIndex, wrapAround: true, pageDots: false, draggable: true }}>
 					{finalImagesArray.map((item, index) => {
 						return (
 							<div className="modal-carrousel" key={index}>

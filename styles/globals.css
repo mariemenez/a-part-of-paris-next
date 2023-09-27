@@ -1183,4 +1183,26 @@ a:link {
 	.equipement {
 		margin-bottom: 15px;
 	}
+
+	/* ZOOM PIC */
+
+	.modal {
+		/* border: solid red 1px; */
+		width: 350px;
+		height: 350px;
+	}
+
+	.modal-carrousel {
+		/* border: solid 2px violet; */
+		width: 350px;
+		height: 350px;
+		border-radius: 10px;
+	}
+
+	.modal-carrousel-img {
+		object-fit: cover;
+		width: 350px;
+		height: 350px;
+		border-radius: 10px;
+	}
 }

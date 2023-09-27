@@ -75,7 +75,7 @@ export default function LongDurationProduct() {
 					</div>
 				</div>
 			</section>
-			{/* {visible && <ZoomPic setVisible={setVisible} picture={picture} finalImagesArray={finalImagesArray} />} */}
+			{visible && <ZoomPic setVisible={setVisible} picture={picture} finalImagesArray={finalImagesArray} />}
 			<ScrollToTop color={"#304b74"} />
 			<Footer />
 		</div>
