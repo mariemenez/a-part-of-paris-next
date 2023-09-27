@@ -1,4 +1,5 @@
 import Icon from "@mdi/react"
+import { mdiLotion } from "@mdi/js"
 import { mdiMicrowave } from "@mdi/js"
 import { mdiStove } from "@mdi/js"
 import { mdiFridge } from "@mdi/js"
@@ -25,6 +26,7 @@ import { mdiFan } from "@mdi/js"
 import { mdiHanger } from "@mdi/js"
 import { mdiWashingMachineAlert } from "@mdi/js"
 import { mdiElevatorPassenger } from "@mdi/js"
+import { mdiDresser } from "@mdi/js"
 
 export default function Equipement({ data }) {
 	return (
@@ -160,7 +162,7 @@ export default function Equipement({ data }) {
 				) : null}
 				{data.soap ? (
 					<div>
-						<i className="fa-solid fa-soap"></i>
+						<Icon path={mdiLotion} size={1} />
 						<p>soap</p>
 					</div>
 				) : null}
@@ -188,7 +190,7 @@ export default function Equipement({ data }) {
 				) : null}
 				{data.linenAndTowels ? (
 					<div>
-						<i className="fa-solid fa-house"></i>
+						<Icon path={mdiDresser} size={1} />
 						<p>linen and towels</p>
 					</div>
 				) : null}
