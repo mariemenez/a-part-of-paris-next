@@ -1065,4 +1065,34 @@ a:link {
 		line-height: 1.5;
 		color: #304b74;
 	}
+
+	/* LONG DURATION */
+	.middle-title {
+		justify-content: center;
+	}
+	/* SMALL CARROUSEL */
+	.small-carrousel {
+		.flickity-prev-next-button.previous {
+			display: none;
+		}
+		.flickity-prev-next-button.next {
+			display: none;
+		}
+	}
+
+	.small-carrousel-card {
+		margin-left: 3px;
+		border-radius: 10px;
+	}
+
+	.small-carrousel-card-img-container {
+		height: 300px;
+		width: 100%;
+	}
+
+	.small-carrousel-card-img-container img {
+		width: 350px;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+	}
 }
