@@ -1096,3 +1096,38 @@ a:link {
 		border-top-left-radius: 10px;
 	}
 }
+
+/* LONG DURATION */
+
+.middle-title {
+	justify-content: center;
+}
+/* SMALL CARROUSEL */
+.small-carrousel {
+	.flickity-prev-next-button.previous {
+		display: none;
+	}
+	.flickity-prev-next-button.next {
+		display: none;
+	}
+}
+
+.small-carrousel-card {
+	/* background-color: #1d4b67; */
+	background-color: #304b74;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.small-carrousel-card-img-container {
+	/* border: solid 2px violet; */
+	height: 300px;
+	width: 100%;
+}
+
+.small-carrousel-card-img-container img {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
