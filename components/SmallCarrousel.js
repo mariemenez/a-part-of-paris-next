@@ -4,7 +4,7 @@ export default function SmallCarrousel({ data }) {
 
 	return (
 		<div className="small-carrousel">
-			<Flickity options={{ prevNextButtons: true, pageDots: false, cellAlign: "left", draggable: false }}>
+			<Flickity options={{ prevNextButtons: true, pageDots: false, cellAlign: "left", draggable: true }}>
 				{data.map((item, index) => {
 					const imageId1 = item.p1.slice(32, 65)
 					const finalImage1 = `https://lh3.googleusercontent.com/d/${imageId1}`
