@@ -1047,20 +1047,23 @@ a:link {
 	.big-carrousel-card {
 		margin-bottom: 40px;
 		/* border: solid 1px green; */
+		padding-left: 0%;
+		margin-bottom: 100px;
 	}
 	.big-carrousel-card-div {
-		height: 80%;
+		height: 100%;
 	}
 	.big-carrousel-card img {
 		/* height: 80%; */
 		width: 100%;
 		border-radius: 10px;
+		width: 350px;
 	}
 	.apt-infos-big-carousel {
 		/* background-color: #19f; */
 		display: block;
 		font-size: 15px;
-		padding-left: 1%;
+		/* padding-left: 1%; */
 		padding-top: 1%;
 		line-height: 1.5;
 		color: #304b74;
