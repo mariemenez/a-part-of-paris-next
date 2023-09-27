@@ -33,7 +33,10 @@ export default function BigCarrousel({ data, height, width, dispo, link }) {
 											)}
 											{item.prs ? <p>{item.prs} people maximum</p> : null}
 											<p>{item.titre}</p>
-											<p>{item.arr}e Arrondissement</p>
+											<p>
+												{item.arr}
+												{item.arr === 1 ? "st" : item.arr === 2 ? "nd" : item.arr === 3 ? "rd" : "th"} Arrondissement
+											</p>
 											{item.prs ? <p>From {item.prix}€/night</p> : <p>{item.prix}€/month cc</p>}
 										</div>
 									</div>

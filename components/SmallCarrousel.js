@@ -22,7 +22,10 @@ export default function SmallCarrousel({ data }) {
 										{item.ch} BR - {item.m2} m2
 									</p>
 									<p>{item.titre}</p>
-									<p>{item.arr}e Arrondissement</p>
+									<p>
+										{item.arr}
+										{item.arr === 1 ? "st" : item.arr === 2 ? "nd" : item.arr === 3 ? "rd" : "th"} Arrondissement
+									</p>{" "}
 									<p>{item.prix}€/month cc</p>
 								</div>
 							</div>

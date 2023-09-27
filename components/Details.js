@@ -18,7 +18,19 @@ export default function Details({ data }) {
 				{data.prs && <p>-</p>}
 				{data.prs && `${data.prs} people`}
 				<p>-</p>
-				<p>{data.etg === 0 ? "ground floor" : `${data.etg} floor`}</p>
+				<p>
+					{data.etg}
+					{data.etg === 0
+						? "ground floor"
+						: data.etg === 1
+						? "st"
+						: data.etg === 2
+						? "nd"
+						: data.etg === 3
+						? "rd"
+						: "th"}
+				</p>{" "}
+				floor
 				{data.asc && <p>-</p>}
 				<p>{data.asc ? (data.asc === "x" ? "elevator" : "no elevator") : null}</p>
 			</div>
