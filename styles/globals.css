@@ -392,11 +392,12 @@ a:link {
 	color: white;
 	flex-direction: column;
 	font-family: "Raleway", sans-serif;
+	/* border: solid 1px red; */
 }
 
 .contact-text {
 	display: flex;
-	/* border: solid red 2px; */
+	/* border: solid green 2px; */
 	width: 1000px;
 	margin-top: 3%;
 	height: 60%;
@@ -997,22 +998,36 @@ a:link {
 	}
 
 	.contact-droite {
-		/* background-color: aqua; */
+		margin-top: 20px;
+		/* background-color: lightblue; */
+		flex: 1;
 		margin-left: 0%;
-		justify-content: center;
-		align-items: normal;
+		justify-content: space-around;
+		display: flex;
 		flex-direction: column;
-		text-align: center;
-		font-family: "Raleway", sans-serif;
+		align-items: center;
 	}
+	.horaires {
+		/* border: solid 2px green; */
+		margin-top: 20px;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+	}
+
 	.contact-droite h3 {
-		padding-bottom: 2%;
-		padding-top: 5%;
-		font-family: "Raleway", sans-serif;
+		font-size: 20px;
+		margin-bottom: 5px;
 	}
 	.contact-droite p {
-		font-size: 15px;
-		line-height: 1.7;
+		font-size: 17px;
+		line-height: 1.5;
+		font-weight: 100;
+	}
+
+	.contact-droite a {
+		color: white;
+		text-decoration: underline;
 	}
 
 	.scroll-to-top {
