@@ -37,7 +37,7 @@ export default function LongDurationProduct() {
 			<section className="general-container">
 				<TopTitle title={data.titre} color={"#304b74"} />
 				<div className="product-carrousel">
-					<Flickity options={{ initialIndex: 1, wrapAround: true, pageDots: false, draggable: false }}>
+					<Flickity options={{ initialIndex: 1, wrapAround: true, pageDots: false, draggable: true }}>
 						{finalImagesArray.map((item, index) => {
 							return (
 								<img
@@ -75,7 +75,7 @@ export default function LongDurationProduct() {
 					</div>
 				</div>
 			</section>
-			{visible && <ZoomPic setVisible={setVisible} picture={picture} finalImagesArray={finalImagesArray} />}
+			{/* {visible && <ZoomPic setVisible={setVisible} picture={picture} finalImagesArray={finalImagesArray} />} */}
 			<ScrollToTop color={"#304b74"} />
 			<Footer />
 		</div>

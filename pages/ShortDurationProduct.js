@@ -36,7 +36,7 @@ export default function ShortDurationProduct() {
 			<section className="general-container">
 				<TopTitle title={data.titre} color={"#304b74"} margin={"120px"} />
 				<div className="product-carrousel">
-					<Flickity options={{ initialIndex: 1, wrapAround: true, pageDots: false, draggable: false }}>
+					<Flickity options={{ initialIndex: 1, wrapAround: true, pageDots: false, draggable: true }}>
 						{finalImagesArray.map((item, index) => {
 							return (
 								<img
