@@ -33,7 +33,7 @@ export default function GeoCode({ location }) {
 		<div className="map-indisponible">
 			<i className="fa-solid fa-triangle-exclamation"></i>
 			<p>
-				Carte indisponible pour le moment. <br /> Veuillez ressayer.
+				Map unavailable at the moment. <br /> Please try again.
 			</p>
 		</div>
 	) : (

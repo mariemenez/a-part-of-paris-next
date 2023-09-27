@@ -28,13 +28,13 @@ export default function BigCarrousel({ data, height, width, dispo, link }) {
 										<div className="block-text">
 											{item.ch && (
 												<p>
-													{item.ch} br - {item.m2} m2
+													{item.ch} BR - {item.m2} m2
 												</p>
 											)}
-											{item.prs ? <p>{item.prs} persons maximum</p> : null}
+											{item.prs ? <p>{item.prs} people maximum</p> : null}
 											<p>{item.titre}</p>
 											<p>{item.arr}e Arrondissement</p>
-											{item.prs ? <p>A partir de {item.prix}€/night</p> : <p>{item.prix}€/month cc</p>}
+											{item.prs ? <p>From {item.prix}€/night</p> : <p>{item.prix}€/month cc</p>}
 										</div>
 									</div>
 								</div>
@@ -48,9 +48,9 @@ export default function BigCarrousel({ data, height, width, dispo, link }) {
 										{item.ch} br - {item.m2} m2
 									</p>
 								)}
-								{item.prs ? <p>{item.prs} persons maximum</p> : null}
+								{item.prs ? <p>{item.prs} people maximum</p> : null}
 
-								{item.prs ? <p>A partir de {item.prix}€/night</p> : <p>{item.prix}€/month cc</p>}
+								{item.prs ? <p>From {item.prix}€/night</p> : <p>{item.prix}€/month cc</p>}
 							</div>
 						</div>
 					)
