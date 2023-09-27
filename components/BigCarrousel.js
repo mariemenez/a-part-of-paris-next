@@ -21,7 +21,7 @@ export default function BigCarrousel({ data, height, width, dispo, link }) {
 							}}
 						>
 							<Link href={`/${link}?index=${index}`}>
-								<div style={{ height: "100%", width: "100%" }}>
+								<div className="big-carrousel-card-div">
 									<img src={finalImage1} alt="apt" />
 									<div className={displayText === item ? "text-actif" : "text-inactif"}>
 										<div className="block"></div>
@@ -51,7 +51,7 @@ export default function BigCarrousel({ data, height, width, dispo, link }) {
 										{item.ch} br - {item.m2} m2 - {item.sqft} sqft
 									</p>
 								)}
-								{item.prs ? <p>{item.prs} people maximum</p> : null}
+								{item.prs ? <p>{item.prs} people max</p> : null}
 
 								{item.prs ? <p>From {item.prix}€/night</p> : <p>{item.prix}€/month cc</p>}
 							</div>
