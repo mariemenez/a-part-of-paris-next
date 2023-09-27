@@ -1075,6 +1075,9 @@ a:link {
 	}
 	/* SMALL CARROUSEL */
 	.small-carrousel {
+		width: 350px;
+
+		/* border: solid 1px yellow; */
 		.flickity-prev-next-button.previous {
 			display: none;
 		}
@@ -1086,17 +1089,24 @@ a:link {
 	.small-carrousel-card {
 		margin-left: 3px;
 		border-radius: 10px;
+		/* border: solid 1px red; */
+		padding: 0px;
 	}
 
 	.small-carrousel-card-img-container {
 		height: 300px;
-		width: 100%;
+		/* width: 100%; */
+		padding: 0px;
+		display: flex;
+		justify-content: center;
+		margin: 0px;
 	}
 
 	.small-carrousel-card-img-container img {
 		width: 350px;
 		border-top-right-radius: 10px;
 		border-top-left-radius: 10px;
+		padding: 0px;
 	}
 	/* LONG DURATION */
 
