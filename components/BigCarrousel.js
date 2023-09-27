@@ -28,7 +28,7 @@ export default function BigCarrousel({ data, height, width, dispo, link }) {
 										<div className="block-text">
 											{item.ch && (
 												<p>
-													{item.ch} BR - {item.m2} m2
+													{item.ch} BR - {item.m2} m2 - {item.sqft} sqft
 												</p>
 											)}
 											{item.prs ? <p>{item.prs} people maximum</p> : null}
@@ -48,7 +48,7 @@ export default function BigCarrousel({ data, height, width, dispo, link }) {
 								</p>
 								{item.ch && (
 									<p>
-										{item.ch} br - {item.m2} m2
+										{item.ch} br - {item.m2} m2 - {item.sqft} sqft
 									</p>
 								)}
 								{item.prs ? <p>{item.prs} people maximum</p> : null}

@@ -19,7 +19,7 @@ export default function SmallCarrousel({ data }) {
 								</Link>
 								<div className="small-carrousel-card-apt-infos">
 									<p>
-										{item.ch} BR - {item.m2} m2
+										{item.ch} BR - {item.m2} m2 - {item.sqft} sqft
 									</p>
 									<p>{item.titre}</p>
 									<p>

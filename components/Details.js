@@ -12,6 +12,8 @@ export default function Details({ data }) {
 			<div className="product-infos-right-details">
 				<p>{data.m2} m2</p>
 				<p>-</p>
+				<p>{data.sqft} sqft</p>
+				<p>-</p>
 				<p>{data.ch} BR</p>
 				<p>-</p>
 				<p>{data.sdb} bathroom</p>
