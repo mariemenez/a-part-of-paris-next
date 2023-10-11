@@ -4,29 +4,15 @@ import Footer from "../components/Footer"
 import ScrollToTop from "../components/ScrollToTop"
 import Button from "../components/Button"
 import TopTitle from "../components/TopTitle"
-// import { useLocation } from "react-router-dom"
-import Link from "next/link"
-import { useEffect } from "react"
+import Head from "next/head"
 export default function Home() {
 	const { isLoaded } = useLoadScript({ googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY })
 
-	// // const location = useLocation()
-
-	// useEffect(() => {
-	// 	if (location.hash) {
-	// 		const targetElement = document.querySelector(location.hash)
-	// 		if (targetElement) {
-	// 			targetElement.scrollIntoView({
-	// 				behavior: "smooth",
-	// 				block: "start",
-	// 				inline: "nearest",
-	// 			})
-	// 		}
-	// 	}
-	// }, [location])
-
 	return (
 		<div>
+			<Head>
+				<title>A part of Paris</title>
+			</Head>
 			<section className="home">
 				<Header
 					position={"absolute"}
