@@ -69,7 +69,7 @@ export default function LongDurationProduct() {
 								className="btn-product btn-product--outline"
 								href="mailto:j.viltart@apartofparis.com"
 							>
-								Je suis intéressé(e)
+								I'm interested
 							</a>
 						</div>
 					</div>

@@ -6,11 +6,11 @@ export default function ProductNav({ data }) {
 					Book with us
 				</a>
 			</div>
-			<div>
+			{/* <div>
 				<a className="btn-product btn-product--outline" target="_blank" href={data.airbnb}>
 					Check availabilities on Airbnb
 				</a>
-			</div>
+			</div> */}
 		</div>
 	)
 }
