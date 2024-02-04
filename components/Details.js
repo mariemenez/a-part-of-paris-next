@@ -10,6 +10,8 @@ export default function Details({ data }) {
 		>
 			<h3>{data.descr}</h3>
 			<div className="product-infos-right-details">
+				<p>{data.prix}€/month cc</p>
+				<p>-</p>
 				<p>{data.m2} m2</p>
 				<p>-</p>
 				<p>{data.sqft} sqft</p>
